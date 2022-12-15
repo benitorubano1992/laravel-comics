@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'partials/jumbotron';
+@import 'partials/footer-top';
+@import 'partials/icon-list';
+@import 'partials/footer-bottom';
+
+.ms-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.card-list {
+    background-color: black;
+
+    .card {
+        border: none;
+        color: white;
+
+        img {
+            max-width: 100%;
+        }
+
+        .ms-card-subtitle {
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin: 0;
+            padding: 0.6rem 0;
+            background-color: black;
+        }
+
+    }
+}

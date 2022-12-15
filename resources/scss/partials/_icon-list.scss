@@ -1,0 +1,28 @@
+.icon-list {
+    background-color: #0282f9;
+    padding: 2rem;
+
+    ul {
+        list-style: none;
+
+        li {
+            color: white;
+            font-weight: bold;
+            font-size: 0.8rem;
+
+            img {
+
+                height: 50px;
+                margin-right: 0.4rem;
+
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,33 @@
+.footer-bottom {
+    padding: 0.8rem 0;
+    background-color: #303030;
+
+    .my-btn {
+        text-decoration: none;
+        border: 2px solid #0282f9;
+        color: white;
+        padding: 0.6rem 0.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 0;
+
+        .follow-link {
+            text-transform: uppercase;
+            color: #0282f9;
+            text-decoration: none;
+        }
+
+        li {
+            margin-right: 1rem;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+
+    }
+}
